@@ -1,0 +1,21 @@
+package basicProg;
+
+public class CountSpecificChar {
+
+	public static void main(String[] args) {
+		
+		String str= "This is for java programming and checking in eclipse";
+		
+		char[] ch = str.toCharArray();
+		int count=0;
+		
+		for(char c: ch)
+		{
+			if(c=='a')
+				count++;
+		}
+		System.out.println("Character count: "+count);
+
+	}
+
+}

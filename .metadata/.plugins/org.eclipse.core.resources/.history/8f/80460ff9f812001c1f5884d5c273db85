@@ -1,0 +1,13 @@
+package basicProg;
+
+public class PrintingZtoH {
+
+	public static void main(String[] args) {
+		int num = 'A'/'A';
+		String str = "aaaaaaaaaa";
+		
+		for(int i=num)
+
+	}
+
+}
