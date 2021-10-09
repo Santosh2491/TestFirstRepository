@@ -22,6 +22,11 @@ public class TestDupl {
 		
 		List<Integer> l1= list1.stream().distinct().collect(Collectors.toList());
 		System.out.println(l1);
+		
+		System.out.println("Verifying merge conflicts - 1st branch");
+		
+		
 	}
-
+	
+	
 }
