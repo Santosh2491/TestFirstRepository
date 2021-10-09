@@ -1,0 +1,23 @@
+package collections;
+
+import java.util.LinkedHashSet;
+import java.util.Set;
+
+public class DuplicateCharsInString {
+
+	public static void main(String[] args) {
+		String str = "One Selenium Test";
+		char[] c = str.toCharArray();
+		
+		Set<Character> s1 = new LinkedHashSet<Character>();
+		for(Character s:c){
+			if(s1.add(s)==false){
+				System.out.println(s);
+				break;
+			}
+		}
+		
+
+	}
+
+}

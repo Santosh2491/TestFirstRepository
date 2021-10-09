@@ -1,0 +1,11 @@
+package keywords;
+
+public class ApplicationKeywords extends ValidationKeywords{
+	
+	String propPath = System.getProperty(("user.dir")+"//src//test//resources//project.properties");
+	
+	public ApplicationKeywords(){
+		
+	}
+
+}

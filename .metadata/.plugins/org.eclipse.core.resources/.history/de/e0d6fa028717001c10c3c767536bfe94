@@ -1,0 +1,24 @@
+package collections;
+
+public class StringToHashMap {
+
+	public static void main(String[] args) {
+		
+		String studentData = "A:201,B:202,C:203,D:204,E:205";
+		String[] indData = studentData.split(",");
+		String[] name = new String[indData.length];
+		String[] rollNo = new String[indData.length];
+		
+		for(int i=0;i<indData.length;i++){
+			System.out.println(indData[i]);
+			name[i] = indData[i].split(":")[0];
+			rollNo[i] = indData[i].split(":")[1];
+			System.out.println(name[i]+"--"+rollNo[i]);
+			
+			
+		}
+		
+
+	}
+
+}

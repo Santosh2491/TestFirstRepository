@@ -24,6 +24,7 @@ public class TestDupl {
 		System.out.println(l1);
 		
 		System.out.println("Verifying merge conflicts - 1st branch");
+		System.out.println("Created new branch from checkout");
 		
 		
 	}

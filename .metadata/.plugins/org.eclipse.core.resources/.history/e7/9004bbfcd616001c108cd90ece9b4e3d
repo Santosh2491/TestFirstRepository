@@ -1,0 +1,13 @@
+package collections;
+
+public class CountWordsInString {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String str = "This is This done with Collections";
+		
+		String[] sp = str.split(" ");
+		System.out.println("String length: "+sp.length);
+	}
+
+}

@@ -1,0 +1,16 @@
+package keywords;
+
+public class GenericKeywords {
+
+	public void openBrowser(String browser){
+		
+	}
+	
+	public void click(){
+		
+	}
+	
+	public void type(){
+		
+	}
+}

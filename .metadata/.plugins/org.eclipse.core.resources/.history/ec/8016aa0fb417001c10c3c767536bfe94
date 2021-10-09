@@ -1,0 +1,37 @@
+package basicProg;
+
+public class SwapFirslLast_ReverseMiddleWords {
+
+	public static void main(String[] args) {
+		
+		String str = "Hello this is the GFG user";
+		String[] strArray = str.split(" ");
+		String temp=strArray[0]; 
+		
+		//temp=strArray[strArray.length-1];
+		
+//		for(int i=0;i<strArray.length;i++){
+//
+//			if(i==0){
+//				strArray[i]=strArray[strArray.length-1];
+//				System.out.print(strArray[i]+" ");
+//			}
+//			else if(i==strArray.length-1){
+//				strArray[i]=temp;
+//				System.out.print(strArray[i]);
+//			}
+//		}
+		
+		for(int j=strArray.length-2;j>=1;j--){
+			char[] c =strArray[j].toCharArray();
+			System.out.print(c);
+			System.out.print(" ");
+//			for(int k=c.length-1;k>=0;k--){
+//				System.out.print(c[k]);
+//		}
+
+	}
+
+	}
+
+}
