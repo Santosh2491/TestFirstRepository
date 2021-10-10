@@ -1,7 +1,0 @@
-
-url=https://portfolio.rediff.com/portfolio-login
-
-#WebElements
-emailId_css=input#useremail
-password_css=input#userpass
-submitBtn_xpath=//input[@id='loginsubmit']
