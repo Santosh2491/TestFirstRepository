@@ -25,9 +25,6 @@ public class TestDupl {
 		
 		System.out.println("Master edited");
 		
-		//-------------------------------
-		System.out.println("Master edited after creating new1");
-		
 		
 	}
 	
