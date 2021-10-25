@@ -29,6 +29,11 @@ public class TestProg {
 //		
 		String test = "This is Java editor";
 		revString(test);
+		
+		System.out.print("First commit - 1");
+		
+		
+		System.out.print("Second commit - 2");
 	}
 	
 	public static void revString(String newStr){
@@ -45,5 +50,6 @@ public class TestProg {
 			
 		}
 	}
-
+	
+	
 }
