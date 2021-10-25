@@ -32,7 +32,8 @@ public class TestProg {
 		
 		System.out.print("First commit - 1");
 		
-		
+		System.out.print("Checking Merge conflicts");
+				
 		
 	}
 	
