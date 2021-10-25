@@ -30,9 +30,8 @@ public class TestProg {
 		String test = "This is Java editor";
 		revString(test);
 		
-		System.out.print("First commit - 1");
-		
-		System.out.print("Checking Merge conflicts");
+			
+		System.out.print("Checking Merge conflicts - Edited in this branch New1Branch");
 				
 		
 	}
