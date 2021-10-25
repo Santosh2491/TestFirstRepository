@@ -30,10 +30,13 @@ public class TestProg {
 		String test = "This is Java editor";
 		revString(test);
 		
+
 			
 		System.out.print("Checking Merge conflicts - Edited in this branch New1Branch");
-				
+		//Keeping both changes			
+		System.out.println("Change made in Master Branch");
 		
+	
 	}
 	
 	public static void revString(String newStr){
