@@ -31,9 +31,6 @@ public class TestDupl {
 		//-------------------------------
 		System.out.println("Master edited after 1st Commit");
 		
-		//-------------------------------
-		System.out.println("Master edited after 2nd Commit");
-		
 		
 	}
 	
